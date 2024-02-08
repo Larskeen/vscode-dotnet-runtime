@@ -401,10 +401,6 @@ export class DotnetCommandNotFoundEvent extends DotnetCustomMessageEvent {
     public readonly eventName = 'DotnetCommandNotFoundEvent';
 }
 
-export class DotnetFileIntegrityCheckEvent extends DotnetCustomMessageEvent {
-    public readonly eventName = 'DotnetFileIntegrityCheckEvent';
-}
-
 export class CommandExecutionStdOut extends DotnetCustomMessageEvent {
     public readonly eventName = 'CommandExecutionStdOut';
 }
